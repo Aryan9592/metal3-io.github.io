@@ -1,0 +1,52 @@
+# See the OWNERS docs at https://go.k8s.io/owners
+filters:
+  ".*":
+    approvers:
+      - hroyrh
+      - iranzo
+      - lentzi90
+      - elfosardo
+
+    reviewers:
+      - Rozzii
+      - tuminoid
+
+    emeritus_approvers:
+      - codificat
+      - russellb
+      - hardys
+      - knowncitizen
+      - fmuyassarov
+
+  "^_posts/.*":
+    labels:
+      - kind/blog
+
+    approvers:
+      - hroyrh
+      - lentzi90
+      - elfosardo
+    
+    reviewers:
+      - Rozzii
+
+    emeritus_approvers:
+      - maelk
+      - russellb
+      - hardys
+      - stbenjam
+
+  "^_(data|layouts|scss|css|js)/.*":
+    labels:
+      - kind/website
+
+    approvers:
+      - hroyrh
+      - lentzi90
+      - iranzo
+      - matthewcarleton
+      - elfosardo
+
+    reviewers:
+      - Rozzii
+   
